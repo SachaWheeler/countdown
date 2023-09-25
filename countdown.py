@@ -63,6 +63,6 @@ target = random.randint(100,1000)
 
 numbers = [ one_from_the_top() ] + [ one_of_the_others() for i in range(5) ]
 
-print("Target: {0} using {1}".format(target, numbers))
+print(f"Target: {target} using {numbers}")
 
 solve(target, numbers)
